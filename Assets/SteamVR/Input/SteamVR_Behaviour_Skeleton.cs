@@ -50,7 +50,7 @@ namespace Valve.VR
         public MirrorType mirroring;
 
         /// <summary>Returns whether this action is bound and the action set is active</summary>
-        public bool isActive { get { return skeletonAction.GetActive(inputSource); } }
+        public bool isActive { get { return skeletonAction == null ? false : skeletonAction.GetActive(inputSource); } }
 
         public Transform root { get { return bones[SteamVR_Skeleton_JointIndexes.root]; } }
         public Transform wrist { get { return bones[SteamVR_Skeleton_JointIndexes.wrist]; } }
