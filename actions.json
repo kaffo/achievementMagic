@@ -1,0 +1,80 @@
+{
+  "actions": [
+    {
+      "name": "/actions/Default/in/Teleport",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Default/in/SkeletonLeft",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/Default/in/SkeletonRight",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/Default/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/Default/out/Haptics",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/Default",
+      "usage": "leftright"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "bindings_holographic_controller.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/in/InteractUI": "Interact With UI",
+      "/actions/default/in/Teleport": "Teleport",
+      "/actions/default/in/GrabPinch": "Grab Pinch",
+      "/actions/default/in/GrabGrip": "Grab Grip",
+      "/actions/default/in/SkeletonLeftHand": "Skeleton (Left)",
+      "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
+      "/actions/default/in/Pose": "Pose",
+      "/actions/default/out/Haptic": "Haptic",
+      "/actions/buggybuddy/in/Steering": "Steering",
+      "/actions/buggybuddy/in/Throttle": "Throttle",
+      "/actions/buggybuddy/in/Brake": "Brake",
+      "/actions/buggybuddy/in/Reset": "Reset",
+      "/actions/platformer/in/Move": "Move",
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/Default/in/GrabGripRight": "Grab Grip Right",
+      "/actions/Default/in/GrabPinchLeft": "Grab Pinch Left",
+      "/actions/Default/in/SqueezeLeft": "Squeeze Left",
+      "/actions/Default/in/Teleport": "Teleport",
+      "/actions/Default/in/PoseLeft": "Pose Left",
+      "/actions/Default/in/PoseRight": "Pose Right",
+      "/actions/Default/in/SkeletonRight": "Skeleton Right",
+      "/actions/Default/in/SqueezeRight": "Squeeze Right",
+      "/actions/Default/out/Haptics": "Haptics",
+      "/actions/Default/in/Pose": "Pose",
+      "/actions/Default/in/SkeletonLeft": "Skeleton Left"
+    }
+  ]
+}

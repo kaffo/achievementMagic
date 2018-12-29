@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d439fb7f1f67c9e44a5a4e0408258b85, type: 3}
+  m_Name: SteamVR_Input_ActionSet_Default_In
+  m_EditorClassIdentifier: 
+  actionSet: {fileID: 0}
+  listDirection: 0
+  actions:
+  - {fileID: 11400000, guid: fe2654790c310d5469f5d2884b67b1b2, type: 2}
+  - {fileID: 11400000, guid: cee34213054ba3d438e3bf841cb50fc0, type: 2}
+  - {fileID: 11400000, guid: b61d983d86bd37c4ba2bddfacfb59374, type: 2}
+  - {fileID: 11400000, guid: 4d98ffe390f31a7479e252edde42ab92, type: 2}
+  Teleport: {fileID: 11400000, guid: fe2654790c310d5469f5d2884b67b1b2, type: 2}
+  SkeletonLeft: {fileID: 11400000, guid: cee34213054ba3d438e3bf841cb50fc0, type: 2}
+  SkeletonRight: {fileID: 11400000, guid: b61d983d86bd37c4ba2bddfacfb59374, type: 2}
+  Pose: {fileID: 11400000, guid: 4d98ffe390f31a7479e252edde42ab92, type: 2}

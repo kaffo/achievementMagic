@@ -5,6 +5,12 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+# Asset store ignores
+Assets/Gaia/
+Assets/Gaia\ Dependencies/
+Assets/KriptoFX/
+
+
 # Visual Studio cache directory
 .vs/
 
