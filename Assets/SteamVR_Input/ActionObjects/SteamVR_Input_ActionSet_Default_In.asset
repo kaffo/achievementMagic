@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,7 +19,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cee34213054ba3d438e3bf841cb50fc0, type: 2}
   - {fileID: 11400000, guid: b61d983d86bd37c4ba2bddfacfb59374, type: 2}
   - {fileID: 11400000, guid: 4d98ffe390f31a7479e252edde42ab92, type: 2}
+  - {fileID: 11400000, guid: fd4272f551122fe4ca46e9bfe484df02, type: 2}
   Teleport: {fileID: 11400000, guid: fe2654790c310d5469f5d2884b67b1b2, type: 2}
   SkeletonLeft: {fileID: 11400000, guid: cee34213054ba3d438e3bf841cb50fc0, type: 2}
   SkeletonRight: {fileID: 11400000, guid: b61d983d86bd37c4ba2bddfacfb59374, type: 2}
   Pose: {fileID: 11400000, guid: 4d98ffe390f31a7479e252edde42ab92, type: 2}
+  MagicWindow: {fileID: 11400000, guid: fd4272f551122fe4ca46e9bfe484df02, type: 2}
